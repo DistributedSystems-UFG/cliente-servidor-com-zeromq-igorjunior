@@ -32,6 +32,14 @@ On another machine:
 
     python3 client.py
 
-### Now, add other services (operations) in the server and call them from the client.
+## Implemented Features
 
-    
+- **append(data)**: Adds element to the end of the list
+- **value()**: Returns the complete list
+- **search(data)**: Searches for element and returns its index (-1 if not found)
+- **remove(data)**: Removes element from the list
+- **insert(index, data)**: Inserts element at specific position
+- **sort(reverse)**: Sorts the list
+- **clear()**: Clears the list
+- **reverse()**: Reverses the order of elements
+- **pop(index)**: Removes and returns element
